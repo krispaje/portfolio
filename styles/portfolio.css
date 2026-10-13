@@ -82,7 +82,8 @@ p {
     text-align: center;
   }
   .hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 80px 20px;
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+  }
 }
