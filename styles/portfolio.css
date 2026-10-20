@@ -48,7 +48,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -60,7 +60,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -83,9 +83,29 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border-color: var(--branding-color);
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.btn-branding-outline:hover {
+  color: black;
+  border-color: var(--branding-color);
+  background-color: transparent;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -121,7 +141,7 @@ p {
   margin: 30px;
 }
 .content-container {
-  padding: 90px 20px;
+  padding: 60px 20px;
 }
 footer {
   margin: 60px 0;
@@ -172,7 +192,6 @@ footer .social-links a:hover {
   .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 80px 20px;
   }
   .content-container {
     text-align: center;
